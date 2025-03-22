@@ -1,0 +1,28 @@
+{
+	"name": "@yeasoft/basetypes",
+	"version": "1.0.0",
+	"description": "A bag full of Needful Things",
+	"author": {
+		"name": "Leo Moll"
+	},
+	"license": "MIT",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"bugs": "https://github.com/YeaSoft/basetypes/issues",
+	"scripts": {
+		"clean": "npm -g uninstall @yeasoft/basetypes; rm -rf node_modules"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/YeaSoft/basetypes.git"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.23.0",
+		"@types/node": "^20.14.8",
+		"eslint": "^9.23.0",
+		"globals": "^16.0.0"
+	}
+}
